@@ -1,0 +1,24 @@
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
+
+dependencies {
+    implementation project(":push-common")
+    implementation project(":push-domain")
+    implementation project(":push-fcm-service")
+
+
+    implementation "org.springframework.boot:spring-boot-starter"
+    implementation "com.google.firebase:firebase-admin:${FIREBASE_ADMIN_VERSION}"
+
+
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
+}
+
+test {
+    useJUnitPlatform()
+}

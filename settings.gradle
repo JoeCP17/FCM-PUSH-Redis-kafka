@@ -1,0 +1,8 @@
+rootProject.name = 'fcm-project'
+include 'push-common'
+include 'push-internal-api'
+include 'push-fcm-service'
+include 'push-domain'
+include 'push-batch'
+include 'push-internal-service'
+
