@@ -5,4 +5,5 @@ include 'push-fcm-service'
 include 'push-domain'
 include 'push-batch'
 include 'push-internal-service'
+include 'push-redis'
 
